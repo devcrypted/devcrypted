@@ -176,11 +176,11 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" alt="Memo" width="25" height="25" /> Latest Blog Posts
 
 <!-- BLOG:START -->
-- [Unlock the Power of Winget: Master Windows Package Management](https://kamal.sh/blog/EXP03-WingetUsage) - 23/1/2025
-- [4 Ways To Create Azure Resources](https://kamal.sh/blog/CE03-4WaysToCreateAzureResources) - 22/12/2024
-- [Windows 11 Setup - Clean & Minimal](https://kamal.sh/blog/CE03-WindowsDesktopSetup) - 22/12/2024
-- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://kamal.sh/blog/AzurePricing) - 27/11/2024
-- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://kamal.sh/blog/AzureStructure) - 21/11/2024
+- [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/EXP03-WingetUsage) - 23/1/2025
+- [4 Ways To Create Azure Resources](https://devcrypted.com/CE03-4WaysToCreateAzureResources) - 22/12/2024
+- [Windows 11 Setup - Clean & Minimal](https://devcrypted.com/CE03-WindowsDesktopSetup) - 22/12/2024
+- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/AzurePricing) - 27/11/2024
+- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/AzureStructure) - 21/11/2024
 <!-- BLOG:END -->
 
 [<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Open%20Book.png" alt="Open Book" width="20" height="20" /> More Articles](https://devcrypted.com)
@@ -246,6 +246,11 @@ No activity tracked this week
 </p>
 
 ---
+
+<p align="center">
+  <i>This README is automatically updated every day at 6:00 AM UTC</i><br>
+  <i>Last refresh: <!-- DATE:START -->Thursday, July 17, 2025 at 06:50 PM GMT+5:30<!-- DATE:END --></i>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Star.png" alt="Star" width="20" height="20" /> From <a href="https://github.com/devcrypted">devcrypted</a>
