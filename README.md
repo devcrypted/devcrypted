@@ -1,18 +1,16 @@
 # 👋 Hey there! I'm Kamal Kumar
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=2F81F7&width=600&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
-
----
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=005&width=400&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
 
 I'm a tech enthusiast passionate about cloud architecture, automation, and security. I specialize in transforming complex enterprise systems into scalable, efficient, and secure cloud solutions.
 
-• **☁️ Cloud Architecture Expert**: Designing enterprise-grade Azure & Google Cloud solutions with 99.99% reliability
-• **⚙️ DevOps & Automation Specialist**: Building CI/CD pipelines, infrastructure as code, and GitOps workflows
-• **🔒 Security & Compliance Focused**: Implementing Zero Trust, RBAC, and enterprise security frameworks
-• **📈 Performance Optimizer**: Achieved $1.4M+ cost savings and 94% deployment time reduction
-• **🎓 Microsoft Certified Trainer**: Mentored 15+ engineers and delivered 50+ training sessions
-• **📹 Content Creator**: Sharing knowledge through technical blogs and YouTube videos
-• **💻 Always Learning**: Constantly exploring new technologies and industry best practices
+- **☁️ Cloud Architecture Expert**: Designing enterprise-grade Azure & Google Cloud solutions with 99.99% reliability
+- **⚙️ DevOps & Automation Specialist**: Building CI/CD pipelines, infrastructure as code, and GitOps workflows
+- **🔒 Security & Compliance Focused**: Implementing Zero Trust, RBAC, and enterprise security frameworks
+- **📈 Performance Optimizer**: Achieved $1.4M+ cost savings and 94% deployment time reduction
+- **🎓 Microsoft Certified Trainer**: Mentored 15+ engineers and delivered 50+ training sessions
+- **📹 Content Creator**: Sharing knowledge through technical blogs and YouTube videos
+- **💻 Always Learning**: Constantly exploring new technologies and industry best practices
 
 ---
 
@@ -174,12 +172,3 @@ No activity tracked this week
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
-
----
-
-## 👁️ Profile Stats
-
-  <img src="https://komarev.com/ghpvc/?username=devcrypted&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views">
-
-  ![GitHub followers](https://img.shields.io/github/followers/devcrypted?style=social)
-  ![GitHub User's stars](https://img.shields.io/github/stars/devcrypted?style=social)
