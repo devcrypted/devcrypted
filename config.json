@@ -6,9 +6,9 @@
   "social": {
     "website": "https://kamal.sh",
     "youtube": {
-      "channelId": "UCdevcrypted",
+      "channelId": "UCsV90U2e5FqsSTMizQCH4vA",
       "channelUrl": "https://youtube.com/@devcrypted",
-      "_comment": "To get real YouTube videos, replace 'UCdevcrypted' with your actual YouTube channel ID from https://www.youtube.com/account_advanced"
+      "_comment": "YouTube channel ID updated - videos will be fetched from this channel"
     },
     "blog": {
       "rssUrl": "https://kamal.sh/rss.xml",

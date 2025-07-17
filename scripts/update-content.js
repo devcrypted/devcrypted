@@ -325,7 +325,7 @@ async function fetchBlogPostsFromGitHub() {
     const response = await axios.get(apiUrl, {
       headers: {
         'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'github-profile-readme'
+        'User-Agent': 'devcrypted-readme'
       }
     });
     
