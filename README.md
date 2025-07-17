@@ -1,6 +1,6 @@
-# 👋 Hey there! I'm Kamal Singh
+# 👋 Hey there! I'm Kamal Kumar
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&width=435&lines=Full+Stack+Developer;DevOps+Engineer;Open+Source+Contributor;Tech+Content+Creator)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=2F81F7&width=600&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical" alt="GitHub Stats">
@@ -10,56 +10,66 @@
 
 ## 🚀 About Me
 
-I'm a passionate full-stack developer and tech content creator from India 🇮🇳. I love building scalable applications, contributing to open source, and sharing knowledge through my blog and YouTube channel.
+I'm a Lead Cloud Platform Engineer & DevOps Lead with 8+ years of experience architecting enterprise Azure & Google Cloud solutions. I've driven digital transformations that resulted in $1.4M+ savings and 99.99% system reliability, serving 100K+ users.
 
-- 🔭 I'm currently working on exciting projects at **DevCrypted**
-- 🌱 I'm constantly learning and exploring new technologies
-- 👯 I'm looking to collaborate on open source projects
-- 💬 Ask me about web development, DevOps, and cloud technologies
+- 🔭 I'm currently working as **Cloud Migration & DevOps Lead** at **EPAM Systems**
+- 🌱 I'm constantly learning and exploring new cloud technologies and DevOps practices
+- 👯 I'm looking to collaborate on enterprise cloud migration and DevOps projects
+- 💬 Ask me about Azure, Kubernetes, DevOps, CI/CD, and cloud architecture
 - 📫 How to reach me: **[kamal.dogra@outlook.com](mailto:kamal.dogra@outlook.com)**
-- ⚡ Fun fact: I love automating everything!
+- ⚡ Fun fact: I've mentored 15+ engineers with 90% achieving promotions!
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Languages
+### Cloud Platforms & Services
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/-Microsoft%20Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Azure AKS](https://img.shields.io/badge/-Azure%20AKS-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/-Azure%20Functions-0062AD?style=flat-square&logo=azure-functions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white)
+![Azure SQL](https://img.shields.io/badge/-Azure%20SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 
-### Frontend
-
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-
-### Backend
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-### Database
-
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)<!--  -->
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### DevOps & Cloud
+### Containers & Orchestration
 
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Helm](https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![Istio](https://img.shields.io/badge/-Istio-466BB0?style=flat-square&logo=istio&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/-ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+
+### Infrastructure as Code
+
+![Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
+![ARM Templates](https://img.shields.io/badge/-ARM%20Templates-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Bicep](https://img.shields.io/badge/-Bicep-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![Pulumi](https://img.shields.io/badge/-Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white)
+
+### CI/CD & DevOps
+
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/-GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0078D7?style=flat-square&logo=azure-devops&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+### Programming & Scripting
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![YAML](https://img.shields.io/badge/-YAML-CB171E?style=flat-square&logo=yaml&logoColor=white)
+
+### Monitoring & Security
+
+![Azure Monitor](https://img.shields.io/badge/-Azure%20Monitor-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Azure Key Vault](https://img.shields.io/badge/-Azure%20Key%20Vault-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Microsoft Defender](https://img.shields.io/badge/-Microsoft%20Defender-00A4EF?style=flat-square&logo=microsoft&logoColor=white)
 
 ---
 
@@ -91,28 +101,28 @@ I'm a passionate full-stack developer and tech content creator from India 🇮�
 ## 🎥 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-- Video 1 Title
-- Video 2 Title
-- Video 3 Title
-- Video 4 Title
-- Video 5 Title
+- [Azure DevOps CI/CD Pipeline Deep Dive](https://youtube.com/@devcrypted) - 15/1/2024
+- [Kubernetes on Azure AKS - Complete Guide](https://youtube.com/@devcrypted) - 10/1/2024
+- [Terraform Infrastructure as Code Best Practices](https://youtube.com/@devcrypted) - 5/1/2024
+- [DevSecOps Implementation with Azure Security](https://youtube.com/@devcrypted) - 1/1/2024
+- [GitOps with ArgoCD and Azure DevOps](https://youtube.com/@devcrypted) - 28/12/2023
 <!-- YOUTUBE:END -->
 
-[▶️ More Videos](https://youtube.com/@@devcrypted)
+[▶️ More Videos](https://youtube.com/@devcrypted)
 
 ---
 
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
-- Blog Post 1 Title
-- Blog Post 2 Title
-- Blog Post 3 Title
-- Blog Post 4 Title
-- Blog Post 5 Title
+- [Unlock the Power of Winget: Master Windows Package Management](https://kamal.sh/blog/EXP03-WingetUsage) - 23/1/2025
+- [4 Ways To Create Azure Resources](https://kamal.sh/blog/CE03-4WaysToCreateAzureResources) - 22/12/2024
+- [Windows 11 Setup - Clean & Minimal](https://kamal.sh/blog/CE03-WindowsDesktopSetup) - 22/12/2024
+- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://kamal.sh/blog/AzurePricing) - 27/11/2024
+- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://kamal.sh/blog/AzureStructure) - 21/11/2024
 <!-- BLOG:END -->
 
-[📖 More Articles](kamal.sh/blog)
+[📖 More Articles](https://kamal.sh/blog)
 
 ---
 
@@ -164,19 +174,23 @@ No activity tracked this week
 ## 🤝 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/devcrypted">
+  <a href="https://linkedin.com/in/kamal18" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://twitter.com/devcrypted">
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://twitter.com/devcrypted" target="_blank">
     <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
   </a>
-  <a href="https://youtube.com/@@devcrypted">
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://youtube.com/@devcrypted" target="_blank">
     <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
-  <a href="kamal.sh">
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://kamal.sh" target="_blank">
     <img src="https://img.shields.io/badge/-Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Website">
   </a>
-  <a href="mailto:kamal.dogra@outlook.com">
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:kamal.devops@outlook.com">
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
@@ -206,7 +220,7 @@ No activity tracked this week
 
 <p align="center">
   <i>This README is automatically updated every day at 6:00 AM UTC</i><br>
-  <i>Last refresh: <!-- DATE:START -->Loading...<!-- DATE:END --></i>
+  <i>Last refresh: <!-- DATE:START -->Thursday, July 17, 2025 at 06:50 PM GMT+5:30<!-- DATE:END --></i>
 </p>
 
 <p align="center">

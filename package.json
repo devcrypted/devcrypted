@@ -21,7 +21,8 @@
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "node-fetch": "^3.3.1",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "yaml": "^2.3.1"
   },
   "devDependencies": {
     "eslint": "^8.44.0",

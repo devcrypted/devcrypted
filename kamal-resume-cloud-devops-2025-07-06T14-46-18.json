@@ -1,0 +1,623 @@
+{
+  "basics": {
+    "name": "Kamal Kumar",
+    "headline": "Lead Cloud Platform Engineer | Lead DevOps Engineer",
+    "email": "kamal.devops@outlook.com",
+    "phone": "+918800550044",
+    "location": "Civil Lines, Delhi - IN",
+    "url": {
+      "label": "Portfolio",
+      "href": "https://kamal.sh"
+    },
+    "customFields": [
+      {
+        "id": "c506gjfdw0ts5lwk88e38pey",
+        "icon": "linkedin-logo",
+        "name": "LinkedIn",
+        "value": "https://linkedin.com/in/kamal18"
+      }
+    ],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Cloud Migration/DevOps Lead w/ 8+ yrs architecting enterprise Azure & Google Cloud solutions, driving digital transformations. $1.4M+ savings, 99.99% reliability. Expert in Kubernetes, GitHub Actions, CI/CD, & zero-trust. Scaled infra for 100K+ users ensuring compliance.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "wmnoas1xpzbcckor4eqmvehr",
+          "visible": true,
+          "name": "Azure DevOps Expert (AZ-400)",
+          "issuer": "Microsoft",
+          "date": "2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "q64ijlhbvsqmfd53des3lo40",
+          "visible": true,
+          "name": "HashiCorp Terraform Associate",
+          "issuer": "HashiCorp",
+          "date": "2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "kagkr1u1l9a402r7pohz8db1",
+          "visible": true,
+          "name": "Azure Security Engineer Associate (AZ-500)",
+          "issuer": "Microsoft",
+          "date": "2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "p312nxy5zprrd4a87pgdccy2",
+          "visible": true,
+          "name": "Azure Network Engineer Associate (AZ-700)",
+          "issuer": "Microsoft",
+          "date": "2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "pdfc823ajuql6zn2am4iv3mp",
+          "visible": true,
+          "name": "Certified Kubernetes Administrator (CKA)",
+          "issuer": "CNCF",
+          "date": "2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ov8m82qymlxu7bfepzw27pvc",
+          "visible": true,
+          "name": "Azure Administrator Associate (AZ-104)",
+          "issuer": "Microsoft",
+          "date": "2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "h9sqtfwlzui7q53ha6v5yow3",
+          "visible": true,
+          "name": "Azure Developer Associate (AZ-204)",
+          "issuer": "Microsoft",
+          "date": "2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qsa272oepkvdrq4091tzb55k",
+          "visible": true,
+          "name": "Solutions Architect Technologies (AZ-300)",
+          "issuer": "Microsoft",
+          "date": "2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": false,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "tcpbaey45np4frvoerh7gzcs",
+          "visible": true,
+          "institution": "Jain University, Bangalore",
+          "studyType": "Master of Computer Applications (MCA)",
+          "area": "",
+          "score": "8.7",
+          "date": "June 2021 - July 2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "sd4unr1vzk7s45t7et2cyzgz",
+          "visible": true,
+          "institution": "Sikkim Manipal University",
+          "studyType": "Bachelor of Computer Applications (BCA)",
+          "area": "",
+          "score": "6.3",
+          "date": "June 2013 - July 2016",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": false,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "bpd2wb3i95tpiyd77l39dd4j",
+          "visible": true,
+          "company": "EPAM Systems",
+          "position": "Cloud Migration & DevOps Lead",
+          "location": "Gurugram, Haryana",
+          "date": "September 2024 - Present",
+          "summary": "<ul><li><strong>Enterprise Migration:</strong> Led zero-downtime migration of 30-component Java/C++ monolith to AKS, serving 100K+ daily users, employing CI/CD pipelines.</li><li><strong>Risk Reduction:</strong> Delivered 30+ POCs and technical assessments, reducing migration risk by 80%, ensuring functional requirements met.</li><li><strong>Deployment Optimization:</strong> Engineered GitLab CI/CD pipelines with ArgoCD, reducing deployment time by 94% (4 hours → 15 minutes) via operational optimization.</li><li><strong>Team Leadership:</strong> Mentored 8 DevOps engineers, increasing team velocity by 40% and knowledge retention by 90%, fostering collaboration.</li><li><strong>Cost Engineering:</strong> Implemented FinOps practices and right-sizing strategies, saving $1.4M annually (25% reduction) through data analysis.</li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "vtgtepz8fa3zcs5v6bseuz70",
+          "visible": true,
+          "company": "EPAM Systems",
+          "position": "Lead Cloud Platform Engineer",
+          "location": "Gurugram, Haryana",
+          "date": "June 2022 - September 2024",
+          "summary": "<ul><li><strong>Platform Scaling:</strong> Onboarded 200+ apps across 15 business units with Azure Landing Zones and hub-spoke architecture leveraging Terraform IaC.</li><li><strong>Automation Excellence:</strong> Built Terraform + Azure DevOps pipelines, cutting provisioning from 8h to 1.4h (70% gain) ensuring technology integration.</li><li><strong>Security Hardening:</strong> Boosted security posture by 85% with Azure Policy and Zero Trust, implementing governance frameworks.</li><li><strong>Template Standardization:</strong> Created 50+ IaC templates for AKS, Container Apps, and Functions, ensuring compliance.</li><li><strong>Process Optimization:</strong> Established CI/CD standards, reducing onboarding from 3 weeks to 3 days (85% improvement) via strategy formulation.</li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "cxi8sqekzctqvfbbt2vk98d8",
+          "visible": true,
+          "company": "ITC Infotech",
+          "position": "DevOps Engineer",
+          "location": "Gurugram, Haryana",
+          "date": "October 2018 - June 2022",
+          "summary": "<ul><li><strong>Infrastructure Modules:</strong> Architected 50+ Terraform modules across 15+ environments using high level design and design patterns.</li><li><strong>Process Automation:</strong> Automated 50+ workflows (Python/PowerShell), boosting productivity by 60%, including CI/CD implementation.</li><li><strong>CI/CD Implementation:</strong> Built 40+ Azure DevOps pipelines for Java app releases (45% faster) with GitHub Actions technology integration.</li><li><strong>Security Enhancement:</strong> Added container scanning &amp; vulnerability management, cutting incidents by 40%, ensuring non-functional requirements are met.</li><li><strong>Compliance Management:</strong> Set up Azure Policy for 100+ regulatory requirements, addressing client requirements.</li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ocmwvcq0b6elgpcn0dddeinq",
+          "visible": true,
+          "company": "Collabera Technologies",
+          "position": "Systems Engineer",
+          "location": "New Delhi, India",
+          "date": "April 2017 - October 2018",
+          "summary": "<ul><li><strong>Infrastructure Management:</strong> Maintained 99.9% uptime across 200+ branch locations, ensuring high availability.</li><li><strong>Server Deployment:</strong> Provisioned 100+ hardened Windows/Linux servers, implementing security best practices.</li><li><strong>Business Continuity:</strong> Led infrastructure setup for 50+ new branches with successful project implementation.</li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "languages",
+      "items": []
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": []
+    },
+    "projects": {
+      "name": "Key Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "projects",
+      "items": [
+        {
+          "id": "e2e29nbe6r4wx7oplvf085k9",
+          "visible": true,
+          "name": "DevSecOps Implementation",
+          "description": "",
+          "date": "2024-2025",
+          "summary": "<ul><li><p>Orchestrated end-to-end security integration across CI/CD pipelines</p></li><li><p>Implemented SAST, DAST, container scanning, and infrastructure compliance automation</p></li><li><p>Delivered 40% reduction in security vulnerabilities and sustained SOC 2 compliance</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ofmh5if2it7riwtl5uzalxqj",
+          "visible": true,
+          "name": "Enterprise AKS Migration Platform",
+          "description": "",
+          "date": "2024 - 2025",
+          "summary": "<ul><li><p>Architected enterprise-grade cloud-native transformation from legacy monolith to microservices on AKS</p></li><li><p>Deployed GitOps workflows, infrastructure as code, and comprehensive monitoring</p></li><li><p>Secured 99.99% availability SLA while serving 100K+ concurrent users</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "w6oyrxiv3wdmzmiyvm2vy9k1",
+          "visible": true,
+          "name": "Azure Landing Zone Automation",
+          "description": "",
+          "date": "2022 - 2024",
+          "summary": "<ul><li><p>Designed enterprise-scale Terraform framework enabling rapid cloud adoption for 200+ teams</p></li><li><p>Automated networking, security policies, governance, and monitoring infrastructure</p></li><li><p>Reduced organizational cloud onboarding time by 85% through standardized templates</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": false,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "Key Achievements",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": [
+        {
+          "id": "zklk723j8f5lg9s88liga8z6",
+          "visible": true,
+          "name": "$1.4M+ Cost Savings Achievement",
+          "description": "Strategic cloud optimization and FinOps implementation for multiple teams within LSEG",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qc8ndwidruwcgaj47es5xelc",
+          "visible": true,
+          "name": "99.99% System Reliability",
+          "description": "Achieved exceptional system reliability serving 100K+ users",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "wnflfgvs48ws9kw8o683e5wf",
+          "visible": true,
+          "name": "Team Development Excellence",
+          "description": "Mentored 15+ engineers with 90% achieving promotions and advanced certifications",
+          "summary": "<p></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "gojbhi2i4msy8szpmyd4cf8t",
+          "visible": true,
+          "name": "Certified Interviewer",
+          "description": "EPAM certified interviewer, successfully conducted 150+ interviews",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "el961vfypnv7iygpzksospov",
+          "visible": true,
+          "name": "Microsoft Certified Trainer",
+          "description": "Recognized by Microsoft, delivered more than 50 internal training sessions within EPAM/LSEG.",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "glnida5djikuwbz69r2rizl7",
+          "visible": true,
+          "name": "EPAM Excellence Award (3x)",
+          "description": "3 times recognized by EPAM for exceptional performance",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 2,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "appbm9nd51jr1q3w0smw83se",
+          "visible": true,
+          "name": "Cloud Platforms",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Microsoft Azure",
+            "AKS",
+            "Functions",
+            "App Service",
+            "Storage",
+            "SQL Database",
+            "PostgreSQL",
+            "Cosmos DB",
+            "Azure OpenAI",
+            "Machine Learning"
+          ]
+        },
+        {
+          "id": "u6k6z32fwbi0kngr149c3dlb",
+          "visible": true,
+          "name": "Containers & Orchestration",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Containerization",
+            "Docker",
+            "Containerd",
+            "Kubernetes (CKA)",
+            "Azure Container Registry",
+            "Container Instances",
+            "Container Apps",
+            "Service Mesh",
+            "Istio"
+          ]
+        },
+        {
+          "id": "lilfucpvbfungdq1trh7b4zq",
+          "visible": true,
+          "name": "DevOps & CI/CD",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Azure DevOps (ADO)",
+            "GitHub",
+            "Git",
+            "Jenkins",
+            "GitLab CI/CD",
+            "GitHub Actions",
+            "ArgoCD",
+            "Helm Charts",
+            "Kustomize",
+            "Flux"
+          ]
+        },
+        {
+          "id": "pnsisre7peqpp0c6pvz3o0tk",
+          "visible": true,
+          "name": "Security & Compliance",
+          "description": "Enhanced Cloud Security and Zero Trust",
+          "level": 5,
+          "keywords": [
+            "Azure Policy",
+            "Microsoft Defender",
+            "Key Vault",
+            "Privileged Identity Management",
+            "RBAC",
+            "Zero Trust",
+            "SOC 2",
+            "GDPR"
+          ]
+        },
+        {
+          "id": "fsou4vluaqbdaqrxulkb0hqn",
+          "visible": true,
+          "name": "Monitoring & Observability",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Azure Monitor",
+            "Log Analytics",
+            "Application Insights",
+            "Prometheus",
+            "Grafana",
+            "Datadog",
+            "Splunk"
+          ]
+        },
+        {
+          "id": "oic8a7m4w4z64r2midtk4vw2",
+          "visible": true,
+          "name": "Infrastructure as Code (IaC)",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Terraform",
+            "ARM Templates",
+            "Bicep",
+            "Pulumi",
+            "CloudFormation",
+            "Ansible"
+          ]
+        },
+        {
+          "id": "h79800urv00t942gietdwoqf",
+          "visible": true,
+          "name": "Programming & Automation",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Python",
+            "PowerShell",
+            "Bash",
+            "Go",
+            "Azure CLI",
+            "REST APIs",
+            "ARM/Bicep",
+            "YAML/JSON"
+          ]
+        },
+        {
+          "id": "en8cv06z9gfs2dblc86mpky3",
+          "visible": true,
+          "name": "Networking",
+          "description": "",
+          "level": 5,
+          "keywords": [
+            "Hub-and-Spoke",
+            "Azure ExpressRoute",
+            "VPN Gateway",
+            "Application Gateway",
+            "Load Balancers",
+            "Azure Firewall",
+            "NSGs"
+          ]
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "rhyhorn",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "volunteer"
+        ],
+        [
+          "interests",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ],
+      [
+        [
+          "skills",
+          "certifications",
+          "education",
+          "references",
+          "projects"
+        ],
+        []
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 48,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": false
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#2563EB"
+    },
+    "typography": {
+      "font": {
+        "family": "Cambria",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 13.5
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": false
+    },
+    "notes": ""
+  }
+}

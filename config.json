@@ -4,18 +4,20 @@
     "repositoryName": "devcrypted"
   },
   "social": {
-    "website": "kamal.sh",
+    "website": "https://kamal.sh",
     "youtube": {
-      "channelId": "@devcrypted",
-      "channelUrl": "https://youtube.com/@@devcrypted"
+      "channelId": "UCYourChannelId",
+      "channelUrl": "https://youtube.com/@devcrypted"
     },
     "blog": {
-      "rssUrl": "https://devcrypted.com/rss.xml",
-      "blogUrl": "https://devcrypted.com/blog"
+      "rssUrl": "https://kamal.sh/rss.xml",
+      "blogUrl": "https://kamal.sh/blog",
+      "githubRepo": "devcrypted/devcrypted.github.io",
+      "postsPath": "_posts"
     },
     "twitter": "https://twitter.com/devcrypted",
-    "linkedin": "https://linkedin.com/in/devcrypted",
-    "email": "kamal.dogra@outlook.com"
+    "linkedin": "https://linkedin.com/in/kamal18",
+    "email": "kamal.devops@outlook.com"
   },
   "content": {
     "maxYouTubeVideos": 5,
