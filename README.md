@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 # 👋 Hey there! I'm Kamal Kumar
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=005&width=400&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=008080&width=400&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
 
 I'm a tech enthusiast passionate about cloud architecture, automation, and security. I specialize in transforming complex enterprise systems into scalable, efficient, and secure cloud solutions.
 
@@ -12,8 +12,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - **🎓 Microsoft Certified Trainer**: Mentored 15+ engineers and delivered 50+ training sessions
 - **📹 Content Creator**: Sharing knowledge through technical blogs and YouTube videos
 - **💻 Always Learning**: Constantly exploring new technologies and industry best practices
-
----
 
 ## 🛠️ Tech Stack
 
@@ -103,8 +101,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![SOC 2](https://img.shields.io/badge/-SOC%202-FF6B6B?style=flat-square&logo=security&logoColor=white)&nbsp;
 ![GDPR](https://img.shields.io/badge/-GDPR-4ECDC4?style=flat-square&logo=security&logoColor=white)&nbsp;
 
----
-
 ## 🎓 Certifications
 
 ![Azure DevOps Expert](https://img.shields.io/badge/-Azure%20DevOps%20Expert%20(AZ--400)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)&nbsp;
@@ -118,8 +114,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![Oracle Cloud Foundations](https://img.shields.io/badge/-Oracle%20Cloud%20Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)&nbsp;
 ![Microsoft Certified Trainer](https://img.shields.io/badge/-Microsoft%20Certified%20Trainer-0078D4?style=flat-square&logo=microsoft&logoColor=white)&nbsp;
 
----
-
 ## 📊 Coding Statistics
 
 <div align="center">
@@ -129,8 +123,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcrypted&layout=compact&langs_count=7&theme=radical" alt="Top Languages"/>
 </div>
-
----
 
 ## 📝 Latest Blog Posts
 
@@ -151,8 +143,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 No activity tracked this week
 ```
 <!--END_SECTION:waka-->
-
----
 
 ## 🤝 Connect with Me
 
