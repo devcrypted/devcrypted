@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-# 👋 Hey there! I'm Kamal Kumar
+# 👋 Hi there! I'm Kamal.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=008080&width=400&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
 
@@ -15,7 +15,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🛠️ TECH STACK
 
 ### Cloud Platforms & Services
 
@@ -86,7 +86,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![Azure Key Vault](https://img.shields.io/badge/-Azure%20Key%20Vault-0078D4?style=flat-square&logo=keycdn&logoColor=white)&nbsp;
 ![Microsoft Defender](https://img.shields.io/badge/-Microsoft%20Defender-00A4EF?style=flat-square&logo=microsoft&logoColor=white)&nbsp;
 ![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)&nbsp;
-![Splunk](https://img.shields.io/badge/-Splunk-000000?style=flat-square&logo=splunk&logoColor=white)&nbsp;
 ![Azure Policy](https://img.shields.io/badge/-Azure%20Policy-0078D4?style=flat-square&logo=azure&logoColor=white)&nbsp;
 
 ### Networking & Security
@@ -105,7 +104,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 🎓 Certifications
+## 🎓 CERTIFICATIONS
 
 ![Azure DevOps Expert](https://img.shields.io/badge/-Azure%20DevOps%20Expert%20(AZ--400)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)&nbsp;
 ![HashiCorp Terraform](https://img.shields.io/badge/-HashiCorp%20Terraform%20Associate-623CE4?style=flat-square&logo=terraform&logoColor=white)&nbsp;
@@ -120,7 +119,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 📝 Latest Blog Posts
+## 📝 LATEST BLOG POSTS
 
 <!-- BLOG:START -->
 - [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/everything-about-winget) - 1/23/2025
@@ -129,12 +128,11 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/azure-pricing-explained) - 11/27/2024
 - [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 11/21/2024
 <!-- BLOG:END -->
-
-- [🌐 More Articles](https://devcrypted.com/archives)
+- [More Articles ▶️](https://devcrypted.com/archives)
 
 <br/>
 
-## 🎥 Latest YouTube Videos
+## 🎥 LATEST YOUTUBE VIDEOS
 
 <!-- YOUTUBE:START -->
 - [Azure DevOps CI/CD Pipeline Deep Dive - Coming Soon!](https://youtube.com/@devcrypted) - 1/15/2025
@@ -143,12 +141,11 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - [DevSecOps Implementation with Azure Security - Coming Soon!](https://youtube.com/@devcrypted) - 1/1/2025
 - [GitOps with ArgoCD and Azure DevOps - Coming Soon!](https://youtube.com/@devcrypted) - 12/28/2024
 <!-- YOUTUBE:END -->
-
-- [📺 More Videos](https://youtube.com/@devcrypted)
+- [More Videos ▶️](https://youtube.com/@devcrypted)
 
 <br/>
 
-## 📊 Coding Statistics
+## 📊 CODING STATISTICS
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
@@ -157,7 +154,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 📈 2025 Development Metrics
+## 📈 2025 DEVELOPMENT STATS
 
 - 🔥 **Total Lines of Code Written**: `39,420`
 - 📝 **Commits Made**: `48`
@@ -168,7 +165,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 🎯 2024 Summary
+## 🎯 2024 SUMMARY
 
 - 📚 **Active Days**: `165`
 - 🚀 **Biggest Streak**: `28 days`
@@ -176,22 +173,22 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <br/>
 
-## 🤝 Connect with Me
+## 🤝 CONNECT WITH ME
 
 <p align="left">
-  <a href="https://linkedin.com/in/devcrypted" target="_blank" style="text-decoration:none;">
+  <a href="https://linkedin.com/in/devcrypted" target="_blank" style="text-decoration:none;border-bottom:none;">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   &nbsp;&nbsp;
-  <a href="https://youtube.com/@devcrypted" target="_blank" style="text-decoration:none;">
+  <a href="https://youtube.com/@devcrypted" target="_blank" style="text-decoration:none;border-bottom:none;">
     <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
   &nbsp;&nbsp;
-  <a href="https://kamal.sh" target="_blank" style="text-decoration:none;">
+  <a href="https://kamal.sh" target="_blank" style="text-decoration:none;border-bottom:none;">
     <img src="https://img.shields.io/badge/-Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Website">
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:kamal.devops@outlook.com" style="text-decoration:none;">
+  <a href="mailto:kamal.devops@outlook.com" style="text-decoration:none;border-bottom:none;">
     <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
