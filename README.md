@@ -128,7 +128,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/azure-pricing-explained) - 11/27/2024
 - [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 11/21/2024
 <!-- BLOG:END -->
-- [More Articles](https://devcrypted.com/) >>
+- [More Articles](https://devcrypted.com/) ⏭️
 
 <br/>
 
@@ -141,7 +141,7 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - [DevSecOps Implementation with Azure Security - Coming Soon!](https://youtube.com/@devcrypted) - 1/1/2025
 - [GitOps with ArgoCD and Azure DevOps - Coming Soon!](https://youtube.com/@devcrypted) - 12/28/2024
 <!-- YOUTUBE:END -->
-- [More Videos](https://youtube.com/@devcrypted) >>
+- [More Videos](https://youtube.com/@devcrypted) ⏭️
 
 <br/>
 
