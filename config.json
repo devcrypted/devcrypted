@@ -1,0 +1,40 @@
+{
+  "github": {
+    "username": "devcrypted",
+    "repositoryName": "devcrypted"
+  },
+  "social": {
+    "website": "kamal.sh",
+    "youtube": {
+      "channelId": "@devcrypted",
+      "channelUrl": "https://youtube.com/@@devcrypted"
+    },
+    "blog": {
+      "rssUrl": "https://devcrypted.com/rss.xml",
+      "blogUrl": "https://devcrypted.com/blog"
+    },
+    "twitter": "https://twitter.com/devcrypted",
+    "linkedin": "https://linkedin.com/in/devcrypted",
+    "email": "kamal.dogra@outlook.com"
+  },
+  "content": {
+    "maxYouTubeVideos": 5,
+    "maxBlogPosts": 5,
+    "timezone": "UTC"
+  },
+  "features": {
+    "enableYouTubeUpdates": true,
+    "enableBlogUpdates": true,
+    "enableStatsUpdates": true,
+    "enableWakaTimeStats": false
+  },
+  "schedule": {
+    "updateTime": "6:00 AM UTC",
+    "cronExpression": "0 6 * * *"
+  },
+  "theme": {
+    "color": "radical",
+    "showIcons": true,
+    "includePrivateRepos": true
+  }
+}

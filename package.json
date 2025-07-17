@@ -1,0 +1,38 @@
+{
+  "name": "github-profile-readme",
+  "version": "1.0.0",
+  "description": "Automated GitHub Profile README with dynamic content",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/update-stats.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "readme",
+    "automation",
+    "statistics"
+  ],
+  "author": "Kamal Singh <contact@devcrypted.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.13",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcrypted/devcrypted.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devcrypted/devcrypted/issues"
+  },
+  "homepage": "https://github.com/devcrypted/devcrypted#readme"
+}
