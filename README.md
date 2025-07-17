@@ -177,18 +177,15 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 <p align="left">
   <a href="https://linkedin.com/in/devcrypted" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  &nbsp;&nbsp;
   <a href="https://youtube.com/@devcrypted" target="_blank">
-    <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
-  &nbsp;&nbsp;
   <a href="https://kamal.sh" target="_blank">
-    <img src="https://img.shields.io/badge/-Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Website">
+    <img src="https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white" alt="Website">
   </a>
-  &nbsp;&nbsp;
   <a href="mailto:kamal.devops@outlook.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
