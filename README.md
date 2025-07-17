@@ -114,16 +114,6 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![Oracle Cloud Foundations](https://img.shields.io/badge/-Oracle%20Cloud%20Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)&nbsp;
 ![Microsoft Certified Trainer](https://img.shields.io/badge/-Microsoft%20Certified%20Trainer-0078D4?style=flat-square&logo=microsoft&logoColor=white)&nbsp;
 
-## 📊 Coding Statistics
-
-<div align="center">
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=devcrypted&theme=github-dark" alt="Contribution Streak"/>
-</p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcrypted&layout=compact&langs_count=7&theme=radical" alt="Top Languages"/>
-</div>
-
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
@@ -134,15 +124,44 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 21/11/2024
 <!-- BLOG:END -->
 
-[📖 More Articles](https://devcrypted.com/archives)
+- [🌐 More Articles](https://devcrypted.com/archives)
 
-## 📊 Weekly Development Breakdown
+## 🎥 Latest YouTube Videos
 
-<!--START_SECTION:waka-->
-```text
-No activity tracked this week
-```
-<!--END_SECTION:waka-->
+<!-- YOUTUBE:START -->
+- [Azure DevOps CI/CD Pipeline Deep Dive](https://youtube.com/@devcrypted) - 15/1/2025
+- [Kubernetes on Azure AKS - Complete Guide](https://youtube.com/@devcrypted) - 10/1/2025
+- [Terraform Infrastructure as Code Best Practices](https://youtube.com/@devcrypted) - 5/1/2025
+- [DevSecOps Implementation with Azure Security](https://youtube.com/@devcrypted) - 1/1/2025
+- [GitOps with ArgoCD and Azure DevOps](https://youtube.com/@devcrypted) - 28/12/2024
+<!-- YOUTUBE:END -->
+
+- [📺 More Videos](https://youtube.com/@devcrypted)
+
+## 📊 Coding Statistics
+
+<div align="center">
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=devcrypted&theme=radical" alt="Contribution Streak"/>
+</p>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcrypted&layout=compact&langs_count=7&theme=radical" alt="Top Languages"/>
+</div>
+
+## 📈 2025 Development Metrics
+
+- 🔥 **Total Lines of Code Written**: `39,420`
+- 📝 **Commits Made**: `48`
+- 🏆 **Repositories Created**: `77`
+- ⭐ **Stars Received**: `60`
+- 🤝 **Pull Requests**: `25`
+- 📊 **Issues Resolved**: `15`
+
+## 🎯 2024 Summary
+
+- 📚 **Active Days**: `165`
+- 🚀 **Biggest Streak**: `28 days`
+- 📦 **Most Used Language**: `PowerShell`
 
 ## 🤝 Connect with Me
 

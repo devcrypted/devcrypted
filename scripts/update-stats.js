@@ -202,7 +202,7 @@ async function updateReadmeWithStats() {
     const githubStats = await getGitHubStats();
     const commitStats = await getCommitStats();
     
-    if (githubStats && commitStats) {
+    if (githubStats && commitStats && githubStats.totalRepos > 0 && commitStats.currentYear.commits > 0) {
       // Update current year stats
       readmeContent = readmeContent.replace(
         /- 🔥 \*\*Total Lines of Code Written\*\*: `Loading\.\.\.`/,

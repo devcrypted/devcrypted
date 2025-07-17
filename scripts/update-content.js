@@ -79,6 +79,14 @@ async function updateYouTubeVideos() {
   try {
     // Use the channel ID from config
     const channelId = config.social.youtube.channelId;
+    
+    // If no valid channel ID, use fallback immediately
+    if (!channelId || channelId === "" || channelId === "UCYourChannelId" || channelId === "UCdevcrypted") {
+      console.log('⚠️  No valid YouTube channel ID configured, using fallback...');
+      await updateYouTubeVideosFallback();
+      return;
+    }
+    
     const youtubeRSSUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
     
     console.log('🎥 Fetching latest YouTube videos...');
@@ -137,27 +145,27 @@ async function updateYouTubeVideosFallback() {
       {
         title: "Azure DevOps CI/CD Pipeline Deep Dive",
         link: "https://youtube.com/@devcrypted",
-        date: "2024-01-15"
+        date: "2025-01-15"
       },
       {
         title: "Kubernetes on Azure AKS - Complete Guide",
         link: "https://youtube.com/@devcrypted",
-        date: "2024-01-10"
+        date: "2025-01-10"
       },
       {
         title: "Terraform Infrastructure as Code Best Practices",
         link: "https://youtube.com/@devcrypted",
-        date: "2024-01-05"
+        date: "2025-01-05"
       },
       {
         title: "DevSecOps Implementation with Azure Security",
         link: "https://youtube.com/@devcrypted",
-        date: "2024-01-01"
+        date: "2025-01-01"
       },
       {
         title: "GitOps with ArgoCD and Azure DevOps",
         link: "https://youtube.com/@devcrypted",
-        date: "2023-12-28"
+        date: "2024-12-28"
       }
     ];
     
@@ -431,10 +439,10 @@ async function updateContent() {
   console.log('🚀 Starting content update...');
   
   // Check if features are enabled
-  if (config.features.enableYouTubeUpdates && config.social.youtube.channelId && config.social.youtube.channelId !== "" && config.social.youtube.channelId !== "UCYourChannelId") {
+  if (config.features.enableYouTubeUpdates) {
     await updateYouTubeVideos();
   } else {
-    console.log('⚠️  YouTube updates disabled or no valid channel ID configured');
+    console.log('⚠️  YouTube updates disabled in config');
   }
   
   if (config.features.enableBlogUpdates) {
