@@ -7,7 +7,8 @@
     "website": "https://kamal.sh",
     "youtube": {
       "channelId": "UCdevcrypted",
-      "channelUrl": "https://youtube.com/@devcrypted"
+      "channelUrl": "https://youtube.com/@devcrypted",
+      "_comment": "To get real YouTube videos, replace 'UCdevcrypted' with your actual YouTube channel ID from https://www.youtube.com/account_advanced"
     },
     "blog": {
       "rssUrl": "https://kamal.sh/rss.xml",

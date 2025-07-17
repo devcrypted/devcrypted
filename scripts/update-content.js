@@ -83,6 +83,8 @@ async function updateYouTubeVideos() {
     // If no valid channel ID, use fallback immediately
     if (!channelId || channelId === "" || channelId === "UCYourChannelId" || channelId === "UCdevcrypted") {
       console.log('⚠️  No valid YouTube channel ID configured, using fallback...');
+      console.log('💡 To get real YouTube videos, update config.json with your actual YouTube channel ID');
+      console.log('💡 You can find your channel ID at: https://www.youtube.com/account_advanced');
       await updateYouTubeVideosFallback();
       return;
     }
@@ -140,30 +142,30 @@ async function updateYouTubeVideos() {
 
 async function updateYouTubeVideosFallback() {
   try {
-    // Fallback: manually define some example videos
+    // Fallback: Show placeholder videos indicating channel is coming soon
     const fallbackVideos = [
       {
-        title: "Azure DevOps CI/CD Pipeline Deep Dive",
+        title: "Azure DevOps CI/CD Pipeline Deep Dive - Coming Soon!",
         link: "https://youtube.com/@devcrypted",
         date: "2025-01-15"
       },
       {
-        title: "Kubernetes on Azure AKS - Complete Guide",
+        title: "Kubernetes on Azure AKS - Complete Guide - Coming Soon!", 
         link: "https://youtube.com/@devcrypted",
         date: "2025-01-10"
       },
       {
-        title: "Terraform Infrastructure as Code Best Practices",
+        title: "Terraform Infrastructure as Code Best Practices - Coming Soon!",
         link: "https://youtube.com/@devcrypted",
         date: "2025-01-05"
       },
       {
-        title: "DevSecOps Implementation with Azure Security",
+        title: "DevSecOps Implementation with Azure Security - Coming Soon!",
         link: "https://youtube.com/@devcrypted",
         date: "2025-01-01"
       },
       {
-        title: "GitOps with ArgoCD and Azure DevOps",
+        title: "GitOps with ArgoCD and Azure DevOps - Coming Soon!",
         link: "https://youtube.com/@devcrypted",
         date: "2024-12-28"
       }

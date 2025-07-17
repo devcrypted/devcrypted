@@ -13,6 +13,8 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - **📹 Content Creator**: Sharing knowledge through technical blogs and YouTube videos
 - **💻 Always Learning**: Constantly exploring new technologies and industry best practices
 
+<br/>
+
 ## 🛠️ Tech Stack
 
 ### Cloud Platforms & Services
@@ -101,6 +103,8 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![SOC 2](https://img.shields.io/badge/-SOC%202-FF6B6B?style=flat-square&logo=security&logoColor=white)&nbsp;
 ![GDPR](https://img.shields.io/badge/-GDPR-4ECDC4?style=flat-square&logo=security&logoColor=white)&nbsp;
 
+<br/>
+
 ## 🎓 Certifications
 
 ![Azure DevOps Expert](https://img.shields.io/badge/-Azure%20DevOps%20Expert%20(AZ--400)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)&nbsp;
@@ -114,6 +118,8 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ![Oracle Cloud Foundations](https://img.shields.io/badge/-Oracle%20Cloud%20Foundations-F80000?style=flat-square&logo=oracle&logoColor=white)&nbsp;
 ![Microsoft Certified Trainer](https://img.shields.io/badge/-Microsoft%20Certified%20Trainer-0078D4?style=flat-square&logo=microsoft&logoColor=white)&nbsp;
 
+<br/>
+
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
@@ -126,27 +132,30 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 
 - [🌐 More Articles](https://devcrypted.com/archives)
 
+<br/>
+
 ## 🎥 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-- [Azure DevOps CI/CD Pipeline Deep Dive](https://youtube.com/@devcrypted) - 15/1/2025
-- [Kubernetes on Azure AKS - Complete Guide](https://youtube.com/@devcrypted) - 10/1/2025
-- [Terraform Infrastructure as Code Best Practices](https://youtube.com/@devcrypted) - 5/1/2025
-- [DevSecOps Implementation with Azure Security](https://youtube.com/@devcrypted) - 1/1/2025
-- [GitOps with ArgoCD and Azure DevOps](https://youtube.com/@devcrypted) - 28/12/2024
+- [Azure DevOps CI/CD Pipeline Deep Dive - Coming Soon!](https://youtube.com/@devcrypted) - 15/1/2025
+- [Kubernetes on Azure AKS - Complete Guide - Coming Soon!](https://youtube.com/@devcrypted) - 10/1/2025
+- [Terraform Infrastructure as Code Best Practices - Coming Soon!](https://youtube.com/@devcrypted) - 5/1/2025
+- [DevSecOps Implementation with Azure Security - Coming Soon!](https://youtube.com/@devcrypted) - 1/1/2025
+- [GitOps with ArgoCD and Azure DevOps - Coming Soon!](https://youtube.com/@devcrypted) - 28/12/2024
 <!-- YOUTUBE:END -->
 
 - [📺 More Videos](https://youtube.com/@devcrypted)
 
+<br/>
+
 ## 📊 Coding Statistics
 
 <div align="center">
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=devcrypted&theme=radical" alt="Contribution Streak"/>
-</p>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=devcrypted&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devcrypted&layout=compact&langs_count=7&theme=radical" alt="Top Languages"/>
 </div>
+
+<br/>
 
 ## 📈 2025 Development Metrics
 
@@ -157,15 +166,19 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 - 🤝 **Pull Requests**: `25`
 - 📊 **Issues Resolved**: `15`
 
+<br/>
+
 ## 🎯 2024 Summary
 
 - 📚 **Active Days**: `165`
 - 🚀 **Biggest Streak**: `28 days`
-- 📦 **Most Used Language**: `PowerShell`
+- 📦 **Most Used Language**: `Python`
+
+<br/>
 
 ## 🤝 Connect with Me
 
-<p align="center">
+<p align="left">
   <a href="https://linkedin.com/in/devcrypted" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
