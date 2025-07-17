@@ -2,6 +2,7 @@ const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+require('dotenv').config();
 
 const parser = new Parser();
 
@@ -75,61 +76,122 @@ async function scrapeBlogPostsFromArchives() {
   }
 }
 
-async function updateYouTubeVideos() {
+async function fetchYouTubeVideos() {
   try {
-    // Use the channel ID from config
+    const apiKey = process.env.YOUTUBE_API_KEY;
     const channelId = config.social.youtube.channelId;
     
-    // If no valid channel ID, use fallback immediately
+    if (!apiKey) {
+      console.log('⚠️  No YouTube API key found in environment variables');
+      console.log('💡 Please set YOUTUBE_API_KEY in your .env file');
+      console.log('💡 Get your API key from: https://console.developers.google.com/');
+      return null;
+    }
+    
     if (!channelId || channelId === "" || channelId === "UCYourChannelId" || channelId === "UCdevcrypted") {
-      console.log('⚠️  No valid YouTube channel ID configured, using fallback...');
-      console.log('💡 To get real YouTube videos, update config.json with your actual YouTube channel ID');
+      console.log('⚠️  No valid YouTube channel ID configured');
+      console.log('💡 Update config.json with your actual YouTube channel ID');
       console.log('💡 You can find your channel ID at: https://www.youtube.com/account_advanced');
-      await updateYouTubeVideosFallback();
-      return;
+      return null;
     }
     
-    const youtubeRSSUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+    const apiUrl = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=5&type=video`;
     
-    console.log('🎥 Fetching latest YouTube videos...');
+    console.log('🎥 Fetching latest YouTube videos using YouTube API...');
     
-    // Parse the RSS feed
-    const feed = await parser.parseURL(youtubeRSSUrl);
+    return new Promise((resolve, reject) => {
+      https.get(apiUrl, (response) => {
+        let data = '';
+        
+        response.on('data', (chunk) => {
+          data += chunk;
+        });
+        
+        response.on('end', () => {
+          try {
+            const result = JSON.parse(data);
+            
+            if (result.error) {
+              console.error('❌ YouTube API Error:', result.error.message);
+              reject(new Error(result.error.message));
+              return;
+            }
+            
+            if (!result.items || result.items.length === 0) {
+              console.log('⚠️  No videos found for this channel');
+              resolve([]);
+              return;
+            }
+            
+            const videos = result.items.map(item => ({
+              title: item.snippet.title,
+              videoId: item.id.videoId,
+              url: `https://www.youtube.com/watch?v=${item.id.videoId}`,
+              publishedAt: item.snippet.publishedAt,
+              thumbnail: item.snippet.thumbnails.medium.url
+            }));
+            
+            console.log(`✅ Found ${videos.length} videos from YouTube API`);
+            resolve(videos);
+          } catch (parseError) {
+            console.error('❌ Error parsing YouTube API response:', parseError);
+            reject(parseError);
+          }
+        });
+      }).on('error', (error) => {
+        console.error('❌ HTTP Error fetching YouTube videos:', error);
+        reject(error);
+      });
+    });
+  } catch (error) {
+    console.error('❌ Error in fetchYouTubeVideos:', error);
+    return null;
+  }
+}
+
+async function updateYouTubeVideos() {
+  try {
+    // Try to fetch real videos using YouTube API
+    const videos = await fetchYouTubeVideos();
     
-    // Get the latest 5 videos
-    const latestVideos = feed.items.slice(0, 5);
-    
-    // Format the videos for README
-    const videoList = latestVideos.map(video => {
-      const publishDate = new Date(video.pubDate).toLocaleDateString();
-      return `- [${video.title}](${video.link}) - ${publishDate}`;
-    }).join('\n');
-    
-    // Read current README
-    const readmePath = path.join(__dirname, '..', 'README.md');
-    let readmeContent = fs.readFileSync(readmePath, 'utf8');
-    
-    // Update the YouTube section
-    const youtubeStartComment = '<!-- YOUTUBE:START -->';
-    const youtubeEndComment = '<!-- YOUTUBE:END -->';
-    
-    const startIndex = readmeContent.indexOf(youtubeStartComment);
-    const endIndex = readmeContent.indexOf(youtubeEndComment);
-    
-    if (startIndex !== -1 && endIndex !== -1) {
-      const beforeSection = readmeContent.substring(0, startIndex + youtubeStartComment.length);
-      const afterSection = readmeContent.substring(endIndex);
+    if (videos && videos.length > 0) {
+      // Format the videos for README
+      const videoList = videos.map(video => {
+        const publishDate = new Date(video.publishedAt).toLocaleDateString();
+        return `- [${video.title}](${video.url}) - ${publishDate}`;
+      }).join('\n');
       
-      readmeContent = beforeSection + '\n' + videoList + '\n' + afterSection;
+      // Read current README
+      const readmePath = path.join(__dirname, '..', 'README.md');
+      let readmeContent = fs.readFileSync(readmePath, 'utf8');
       
-      // Write updated content back to file
-      fs.writeFileSync(readmePath, readmeContent);
-      console.log('✅ YouTube videos updated successfully!');
+      // Update the YouTube section
+      const youtubeStartComment = '<!-- YOUTUBE:START -->';
+      const youtubeEndComment = '<!-- YOUTUBE:END -->';
+      
+      const startIndex = readmeContent.indexOf(youtubeStartComment);
+      const endIndex = readmeContent.indexOf(youtubeEndComment);
+      
+      if (startIndex !== -1 && endIndex !== -1) {
+        const beforeSection = readmeContent.substring(0, startIndex + youtubeStartComment.length);
+        const afterSection = readmeContent.substring(endIndex);
+        
+        readmeContent = beforeSection + '\n' + videoList + '\n' + afterSection;
+        
+        // Write updated content back to file
+        fs.writeFileSync(readmePath, readmeContent);
+        console.log('✅ YouTube videos updated successfully using YouTube API!');
+      } else {
+        console.log('❌ Could not find YouTube section markers in README');
+      }
+      
+      return videos;
     } else {
-      console.log('❌ Could not find YouTube section markers in README');
+      // Use fallback if API fails or no videos found
+      console.log('🔄 Using fallback YouTube videos...');
+      await updateYouTubeVideosFallback();
+      return null;
     }
-    
-    return latestVideos;
   } catch (error) {
     console.error('❌ Error updating YouTube videos:', error);
     

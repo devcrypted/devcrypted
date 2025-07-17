@@ -26,11 +26,13 @@ jobs:
       run: node scripts/update-content.js
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         
     - name: Update GitHub Statistics
       run: node scripts/update-stats.js
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         
     - name: Update timestamp
       run: |

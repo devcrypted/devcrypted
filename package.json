@@ -20,6 +20,7 @@
     "@octokit/rest": "^19.0.13",
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.6.1",
     "node-fetch": "^3.3.1",
     "rss-parser": "^3.13.0",
     "yaml": "^2.3.1"
