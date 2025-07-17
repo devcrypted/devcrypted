@@ -123,11 +123,11 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
-- [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/everything-about-winget) - 23/1/2025
-- [Windows 11 Setup - Clean & Minimal](https://devcrypted.com/desktop-setup) - 22/12/2024
-- [4 Ways To Create Azure Resources](https://devcrypted.com/4-ways-to-create-azure-resource) - 22/12/2024
-- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/azure-pricing-explained) - 27/11/2024
-- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 21/11/2024
+- [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/everything-about-winget) - 1/23/2025
+- [Windows 11 Setup - Clean & Minimal](https://devcrypted.com/desktop-setup) - 12/22/2024
+- [4 Ways To Create Azure Resources](https://devcrypted.com/4-ways-to-create-azure-resource) - 12/22/2024
+- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/azure-pricing-explained) - 11/27/2024
+- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 11/21/2024
 <!-- BLOG:END -->
 
 - [🌐 More Articles](https://devcrypted.com/archives)
@@ -137,11 +137,11 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ## 🎥 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-- [Ultimate Winget Tutorial | Automate Your Windows Setup](https://www.youtube.com/watch?v=CvcNiSRMSjk) - 24/1/2025
-- [The Perfect Window 11 Setup with WSL (Ubuntu)](https://www.youtube.com/watch?v=U7XDWpxPpdM) - 17/1/2025
-- [4 Easy Ways to Create Azure Resources | Portal, CLI, PowerShell, Terraform 🚀](https://www.youtube.com/watch?v=g3D0SJ8uBIg) - 5/1/2025
-- [Azure Pricing Simplified! | Day 2 of Cloud Engineering](https://www.youtube.com/watch?v=I7dW1ovCtzI) - 27/11/2024
-- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://www.youtube.com/watch?v=cEg9INnN2p0) - 22/11/2024
+- [Azure DevOps CI/CD Pipeline Deep Dive - Coming Soon!](https://youtube.com/@devcrypted) - 1/15/2025
+- [Kubernetes on Azure AKS - Complete Guide - Coming Soon!](https://youtube.com/@devcrypted) - 1/10/2025
+- [Terraform Infrastructure as Code Best Practices - Coming Soon!](https://youtube.com/@devcrypted) - 1/5/2025
+- [DevSecOps Implementation with Azure Security - Coming Soon!](https://youtube.com/@devcrypted) - 1/1/2025
+- [GitOps with ArgoCD and Azure DevOps - Coming Soon!](https://youtube.com/@devcrypted) - 12/28/2024
 <!-- YOUTUBE:END -->
 
 - [📺 More Videos](https://youtube.com/@devcrypted)
