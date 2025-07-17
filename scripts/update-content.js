@@ -369,8 +369,16 @@ async function updateBlogPostsManualFallback() {
 async function updateContent() {
   console.log('🚀 Starting content update...');
   
-  await updateYouTubeVideos();
-  await updateBlogPosts();
+  // Check if features are enabled
+  if (config.features.enableYouTubeUpdates && config.social.youtube.channelId && config.social.youtube.channelId !== "" && config.social.youtube.channelId !== "UCYourChannelId") {
+    await updateYouTubeVideos();
+  } else {
+    console.log('⚠️  YouTube updates disabled or no valid channel ID configured');
+  }
+  
+  if (config.features.enableBlogUpdates) {
+    await updateBlogPosts();
+  }
   
   // Update the timestamp
   const now = new Date();

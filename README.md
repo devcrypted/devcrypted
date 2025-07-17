@@ -82,33 +82,19 @@ I'm a Lead Cloud Platform Engineer & DevOps Lead with 8+ years of experience arc
 
 ### 📈 This Year's Achievements
 
-- 🔥 **Total Lines of Code Written**: `Loading...`
-- 📝 **Commits Made**: `Loading...`
-- 🏆 **Repositories Created**: `Loading...`
-- ⭐ **Stars Received**: `Loading...`
-- 🤝 **Pull Requests**: `Loading...`
-- 📊 **Issues Resolved**: `Loading...`
+- 🔥 **Total Lines of Code Written**: `1,880`
+- 📝 **Commits Made**: `41`
+- 🏆 **Repositories Created**: `77`
+- ⭐ **Stars Received**: `60`
+- 🤝 **Pull Requests**: `10`
+- 📊 **Issues Resolved**: `1`
 
 ### 🏅 Last Year's Highlights
 
-- 🎯 **Total Contributions**: `Loading...`
-- 📚 **Active Days**: `Loading...`
-- 🚀 **Biggest Streak**: `Loading...`
-- 📦 **Most Used Language**: `Loading...`
-
----
-
-## 🎥 Latest YouTube Videos
-
-<!-- YOUTUBE:START -->
-- [Azure DevOps CI/CD Pipeline Deep Dive](https://youtube.com/@devcrypted) - 15/1/2024
-- [Kubernetes on Azure AKS - Complete Guide](https://youtube.com/@devcrypted) - 10/1/2024
-- [Terraform Infrastructure as Code Best Practices](https://youtube.com/@devcrypted) - 5/1/2024
-- [DevSecOps Implementation with Azure Security](https://youtube.com/@devcrypted) - 1/1/2024
-- [GitOps with ArgoCD and Azure DevOps](https://youtube.com/@devcrypted) - 28/12/2023
-<!-- YOUTUBE:END -->
-
-[▶️ More Videos](https://youtube.com/@devcrypted)
+- 🎯 **Total Contributions**: `75`
+- 📚 **Active Days**: `14`
+- 🚀 **Biggest Streak**: `15 days`
+- 📦 **Most Used Language**: `PowerShell`
 
 ---
 
@@ -149,17 +135,6 @@ No activity tracked this week
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=devcrypted&theme=radical" alt="GitHub Streak Stats">
 </p>
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-  
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=devcrypted&repo=awesome-project&theme=radical)](https://github.com/devcrypted/awesome-project)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=devcrypted&repo=another-project&theme=radical)](https://github.com/devcrypted/another-project)
-
-</div>
 
 ---
 
@@ -220,7 +195,7 @@ No activity tracked this week
 
 <p align="center">
   <i>This README is automatically updated every day at 6:00 AM UTC</i><br>
-  <i>Last refresh: <!-- DATE:START -->Thursday, July 17, 2025 at 06:50 PM GMT+5:30<!-- DATE:END --></i>
+  <i>Last refresh: <!-- DATE:START -->Thursday, July 17, 2025 at 07:05 PM GMT+5:30<!-- DATE:END --></i>
 </p>
 
 <p align="center">

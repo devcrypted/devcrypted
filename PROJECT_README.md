@@ -19,6 +19,7 @@ A beautiful, automatically updating GitHub profile README that showcases your co
 ## 🚀 Quick Start
 
 ### 1. Clone and Setup
+
 ```bash
 git clone https://github.com/devcrypted/github-profile.git
 cd github-profile
@@ -26,11 +27,13 @@ npm install
 ```
 
 ### 2. Configure Your Profile
+
 ```bash
 node setup.js
 ```
 
 This will guide you through configuring:
+
 - GitHub username
 - YouTube channel ID
 - Blog RSS feed
@@ -38,6 +41,7 @@ This will guide you through configuring:
 - Email and website
 
 ### 3. Deploy to GitHub
+
 1. Create a new repository with **your GitHub username** as the repository name
 2. Push this code to that repository
 3. Enable GitHub Actions in repository settings
@@ -63,6 +67,7 @@ github-profile/
 ## 🛠️ Configuration
 
 ### Basic Configuration
+
 Edit `config.json` to customize your profile:
 
 ```json
@@ -83,6 +88,7 @@ Edit `config.json` to customize your profile:
 ```
 
 ### Advanced Configuration
+
 - **Update Schedule**: Modify `.github/workflows/update-readme.yml`
 - **Themes**: Change theme in README.md GitHub stats URLs
 - **Content**: Customize sections in README.md
@@ -91,6 +97,7 @@ Edit `config.json` to customize your profile:
 ## 📊 Statistics Included
 
 ### Current Year Metrics
+
 - 🔥 Total Lines of Code Written
 - 📝 Commits Made
 - 🏆 Repositories Created
@@ -99,6 +106,7 @@ Edit `config.json` to customize your profile:
 - 📊 Issues Resolved
 
 ### Historical Data
+
 - 🎯 Total Contributions
 - 📚 Active Coding Days
 - 🚀 Longest Streak
@@ -107,11 +115,13 @@ Edit `config.json` to customize your profile:
 ## 🎥 Content Sources
 
 ### YouTube Integration
+
 - Automatically fetches latest videos from your channel
 - Shows video titles, links, and publish dates
 - Fallback handling for API failures
 
 ### Blog Integration
+
 - Pulls recent posts from your RSS feed
 - Compatible with most blogging platforms
 - Manual fallback for custom setups
@@ -125,6 +135,7 @@ node test.js
 ```
 
 This will check:
+
 - ✅ Required files exist
 - ✅ Configuration is valid
 - ✅ Scripts have proper syntax
@@ -134,7 +145,9 @@ This will check:
 ## 🎨 Customization
 
 ### Themes
+
 Choose from multiple themes:
+
 - `radical` (default)
 - `dark`
 - `github`
@@ -144,12 +157,15 @@ Choose from multiple themes:
 - `synthwave`
 
 ### Colors
+
 Customize badge colors and styles in README.md:
+
 ```markdown
 ![Badge](https://img.shields.io/badge/Label-Message-Color)
 ```
 
 ### Sections
+
 Add or remove sections by editing README.md and corresponding scripts.
 
 ## 🤝 Contributing
@@ -169,20 +185,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 Inspired by amazing developers:
+
 - [thmsgbrt](https://github.com/thmsgbrt/thmsgbrt)
 - [mokkapps](https://github.com/mokkapps/mokkapps)
 
 Built with:
+
 - [GitHub Stats API](https://github.com/anuraghazra/github-readme-stats)
 - [GitHub Trophies](https://github.com/ryo-ma/github-profile-trophy)
 - [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 ## 📞 Support
 
-Need help? 
+Need help?
+
 - 📖 Read the [DOCUMENTATION.md](DOCUMENTATION.md)
 - 🐛 Open an [issue](https://github.com/devcrypted/github-profile/issues)
-- 💬 Contact: contact@devcrypted.com
+- 💬 Contact: <contact@devcrypted.com>
 
 ---
 

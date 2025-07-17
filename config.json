@@ -6,7 +6,7 @@
   "social": {
     "website": "https://kamal.sh",
     "youtube": {
-      "channelId": "UCYourChannelId",
+      "channelId": "",
       "channelUrl": "https://youtube.com/@devcrypted"
     },
     "blog": {
@@ -25,7 +25,7 @@
     "timezone": "UTC"
   },
   "features": {
-    "enableYouTubeUpdates": true,
+    "enableYouTubeUpdates": false,
     "enableBlogUpdates": true,
     "enableStatsUpdates": true,
     "enableWakaTimeStats": false
