@@ -1,6 +1,7 @@
 const { Octokit } = require('@octokit/rest');
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
 // Read configuration
 const configPath = path.join(__dirname, '..', 'config.json');
