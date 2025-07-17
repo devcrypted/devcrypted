@@ -151,11 +151,14 @@ async function testSetup() {
   
   if (errors.length === 0) {
     console.log('\n🎉 Setup test passed! Your GitHub profile README is ready to deploy.');
-    console.log('\nNext steps:');
-    console.log('1. Run: npm install');
-    console.log('2. Run: node setup.js (to configure your details)');
-    console.log('3. Push to GitHub repository named after your username');
-    console.log('4. Enable GitHub Actions in repository settings');
+    console.log('\n📋 Next steps to link with your profile:');
+    console.log('1. Create a new repository named "devcrypted" (your username)');
+    console.log('2. Make sure the repository is PUBLIC');
+    console.log('3. Copy all files from this project to that repository');
+    console.log('4. Push to GitHub: git add . && git commit -m "Add profile README" && git push');
+    console.log('5. Enable GitHub Actions in repository settings');
+    console.log('6. Your profile will be live at: https://github.com/devcrypted');
+    console.log('\n💡 Pro tip: The repository name MUST match your username exactly!');
   } else {
     console.log('\n❌ Setup test failed. Please fix the errors above.');
   }
