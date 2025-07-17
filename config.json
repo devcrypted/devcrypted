@@ -11,12 +11,12 @@
     },
     "blog": {
       "rssUrl": "https://kamal.sh/rss.xml",
-      "blogUrl": "https://kamal.sh/blog",
+      "blogUrl": "https://devcrypted.com",
       "githubRepo": "devcrypted/devcrypted.github.io",
       "postsPath": "_posts"
     },
     "twitter": "https://twitter.com/devcrypted",
-    "linkedin": "https://linkedin.com/in/kamal18",
+    "linkedin": "https://linkedin.com/in/devcrypted",
     "email": "kamal.devops@outlook.com"
   },
   "content": {
@@ -25,7 +25,7 @@
     "timezone": "UTC"
   },
   "features": {
-    "enableYouTubeUpdates": false,
+    "enableYouTubeUpdates": true,
     "enableBlogUpdates": true,
     "enableStatsUpdates": true,
     "enableWakaTimeStats": false

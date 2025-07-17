@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # 👋 Hey there! I'm Kamal Kumar
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&color=005&width=400&lines=Lead+Cloud+Platform+Engineer;Cloud+Migration+%26+DevOps+Lead;Azure+%26+Kubernetes+Expert;Microsoft+Certified+Trainer;8%2B+Years+Experience)](https://git.io/typing-svg)
@@ -134,14 +135,14 @@ I'm a tech enthusiast passionate about cloud architecture, automation, and secur
 ## 📝 Latest Blog Posts
 
 <!-- BLOG:START -->
-- [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/EXP03) - 23/1/2025
-- [4 Ways To Create Azure Resources](https://devcrypted.com/CE03) - 22/12/2024
-- [Windows 11 Setup - Clean & Minimal](https://devcrypted.com/CE03) - 22/12/2024
-- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/AzurePricing) - 27/11/2024
-- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/AzureStructure) - 21/11/2024
+- [Unlock the Power of Winget: Master Windows Package Management](https://devcrypted.com/everything-about-winget) - 23/1/2025
+- [Windows 11 Setup - Clean & Minimal](https://devcrypted.com/desktop-setup) - 22/12/2024
+- [4 Ways To Create Azure Resources](https://devcrypted.com/4-ways-to-create-azure-resource) - 22/12/2024
+- [Azure Pricing Explained | Day 2 of Cloud Engineering](https://devcrypted.com/azure-pricing-explained) - 27/11/2024
+- [How Microsoft Azure is Structured? | Day 1 of Cloud Engineering](https://devcrypted.com/introduction-to-azure-building-blocks) - 21/11/2024
 <!-- BLOG:END -->
 
-[📖 More Articles](https://devcrypted.com)
+[📖 More Articles](https://devcrypted.com/archives)
 
 ## 📊 Weekly Development Breakdown
 

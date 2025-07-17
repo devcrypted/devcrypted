@@ -1,12 +1,79 @@
 const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
 
 const parser = new Parser();
 
 // Read configuration
 const configPath = path.join(__dirname, '..', 'config.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+
+async function fetchWebPage(url) {
+  return new Promise((resolve, reject) => {
+    https.get(url, (response) => {
+      let data = '';
+      response.on('data', (chunk) => {
+        data += chunk;
+      });
+      response.on('end', () => {
+        resolve(data);
+      });
+    }).on('error', (error) => {
+      reject(error);
+    });
+  });
+}
+
+async function scrapeBlogPostsFromArchives() {
+  try {
+    console.log('📝 Scraping blog posts from devcrypted.com/archives...');
+    
+    const archivesUrl = 'https://devcrypted.com/archives/';
+    const html = await fetchWebPage(archivesUrl);
+    
+    // Parse the HTML to extract blog posts
+    const blogPosts = [];
+    
+    // Look for the specific pattern from the archives page
+    const postPattern = /(\d{1,2}\s+\w+)\[([^\]]+)\]\(([^)]+)\)/g;
+    let match;
+    
+    // Find all posts
+    while ((match = postPattern.exec(html)) !== null) {
+      const [, dateStr, title, url] = match;
+      
+      // Determine the year based on where we are in the HTML
+      let year = '2024';
+      const beforeMatch = html.substring(0, match.index);
+      if (beforeMatch.lastIndexOf('2025') > beforeMatch.lastIndexOf('2024')) {
+        year = '2025';
+      }
+      
+      // Convert date format
+      const date = new Date(`${dateStr} ${year}`);
+      
+      if (!isNaN(date.getTime())) {
+        blogPosts.push({
+          title: title.trim(),
+          url: url.trim(),
+          date: date.toLocaleDateString(),
+          rawDate: date
+        });
+      }
+    }
+    
+    // Sort by date (newest first) and take top 5
+    blogPosts.sort((a, b) => b.rawDate - a.rawDate);
+    
+    console.log(`📰 Found ${blogPosts.length} blog posts`);
+    
+    return blogPosts.slice(0, 5);
+  } catch (error) {
+    console.error('❌ Error scraping blog posts:', error);
+    return [];
+  }
+}
 
 async function updateYouTubeVideos() {
   try {
@@ -128,19 +195,15 @@ async function updateYouTubeVideosFallback() {
 
 async function updateBlogPosts() {
   try {
-    console.log('📝 Fetching latest blog posts from GitHub repository...');
+    console.log('📝 Fetching latest blog posts from devcrypted.com/archives...');
     
-    // Fetch blog posts from your GitHub repository
-    const blogPosts = await fetchBlogPostsFromGitHub();
+    // Scrape blog posts from the archives page
+    const blogPosts = await scrapeBlogPostsFromArchives();
     
     if (blogPosts && blogPosts.length > 0) {
-      // Get the latest 5 posts
-      const latestPosts = blogPosts.slice(0, 5);
-      
       // Format the posts for README
-      const postList = latestPosts.map(post => {
-        const publishDate = new Date(post.date).toLocaleDateString();
-        return `- [${post.title}](${post.url}) - ${publishDate}`;
+      const postList = blogPosts.map(post => {
+        return `- [${post.title}](${post.url}) - ${post.date}`;
       }).join('\n');
       
       // Read current README
@@ -163,21 +226,19 @@ async function updateBlogPosts() {
         // Write updated content back to file
         fs.writeFileSync(readmePath, readmeContent);
         console.log('✅ Blog posts updated successfully!');
+        console.log(`📰 Found ${blogPosts.length} blog posts`);
       } else {
         console.log('❌ Could not find blog section markers in README');
       }
       
-      return latestPosts;
+      return blogPosts;
     } else {
-      throw new Error('No blog posts found in repository');
+      throw new Error('No blog posts found');
     }
   } catch (error) {
     console.error('❌ Error updating blog posts:', error);
-    
-    // If GitHub API fails, try to use RSS feed as fallback
-    console.log('🔄 Attempting RSS feed fallback...');
-    await updateBlogPostsRSSFallback();
-    return null;
+    // Use fallback
+    await updateBlogPostsManualFallback();
   }
 }
 
@@ -308,29 +369,29 @@ async function updateBlogPostsManualFallback() {
     // Fallback: manually define some recent blog posts based on DevOps/Cloud topics
     const fallbackPosts = [
       {
-        title: "Azure DevOps CI/CD Pipeline Best Practices",
-        link: "https://kamal.sh/blog/azure-devops-cicd-best-practices",
-        date: "2024-01-15"
+        title: "Unlock the Power of Winget: Master Windows Package Management",
+        link: "https://devcrypted.com/everything-about-winget",
+        date: "2025-01-23"
       },
       {
-        title: "Kubernetes Security: Zero Trust Implementation",
-        link: "https://kamal.sh/blog/kubernetes-security-zero-trust",
-        date: "2024-01-10"
+        title: "Windows 11 Setup - Clean & Minimal",
+        link: "https://devcrypted.com/desktop-setup",
+        date: "2024-12-22"
       },
       {
-        title: "Terraform Enterprise Patterns for Azure",
-        link: "https://kamal.sh/blog/terraform-enterprise-patterns-azure",
-        date: "2024-01-05"
+        title: "4 Ways To Create Azure Resources",
+        link: "https://devcrypted.com/4-ways-to-create-azure-resource",
+        date: "2024-12-22"
       },
       {
-        title: "GitOps with ArgoCD: Complete Implementation Guide",
-        link: "https://kamal.sh/blog/gitops-argocd-implementation",
-        date: "2024-01-01"
+        title: "Azure Pricing Explained | Day 2 of Cloud Engineering",
+        link: "https://devcrypted.com/azure-pricing-explained",
+        date: "2024-11-27"
       },
       {
-        title: "Cloud Cost Optimization: FinOps Best Practices",
-        link: "https://kamal.sh/blog/cloud-cost-optimization-finops",
-        date: "2023-12-28"
+        title: "How Microsoft Azure is Structured? | Day 1 of Cloud Engineering",
+        link: "https://devcrypted.com/introduction-to-azure-building-blocks",
+        date: "2024-11-21"
       }
     ];
     
